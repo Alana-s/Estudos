@@ -1,0 +1,100 @@
+.Titulo-principal{
+	color: #FF69B4;
+	text-align: center;
+	font-family: serif;
+	font-style: italic;
+	font-size: 40px;
+}
+
+.paragrafo-principal{
+	text-align: center;
+	color: #FF69B4;
+	font-family: serif;
+	font-style: oblique;
+	font-size: 25px;
+}
+
+
+.div-background{
+	background-color: #87CEEB;
+	background-position: relative;
+	height: 500px;
+	background-image: url(https://www.drbrenogusmao.com.br/wp-content/uploads/2019/12/Capa-sorvete.jpg);
+	background-size: cover;
+	position: relative;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-left: 60px;
+	padding-top: 10px;
+	padding-right: 50px;
+	width: 92%;
+	border-radius: 30px;
+	box-shadow: -webkit-box-shadow: 1px -7px 14px 5px #000000; 
+box-shadow: 1px -7px 14px 5px #000000;
+}
+
+html{
+	background-color: #87CEEB;
+}
+
+.paragrafo-secundario{
+	font-family: 'Roboto', sans-serif;
+}
+
+.subtitulo{
+	font-style: italic;
+	color: #FF69B4;
+	font-family: 'Open Sans', sans-serif;
+}
+
+a{
+	color: black;
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.imagem{
+	position: relative;
+	padding: 5px;
+	height: 35%;
+	width: 35%;
+	float: left;
+	margin-top: 30px;
+	margin-right: 20px;
+	border-radius: 20px;
+}
+
+.fas{
+	font-size: 70px;
+	color: #FFF;
+	border: 2px solid transparent;
+	text-transform: uppercase;
+	cursor: pointer;
+	transition: .5s;
+	background-color: #673AB7;
+	width: 120px;
+	height: 100px;
+	float: right;
+	border-radius: 20px;
+}
+.fas:hover {
+	background-color: #FFF;
+	border-color: #673AB7;
+	color: #673AB7;
+	
+}
+
+.titulo-terciario{
+	color: #FF69B4;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.localizaçao{
+	font-family: 'Roboto', sans-serif;
+	padding-left: 10px;
+}
+
+.lista{
+	font-family: 'Roboto', sans-serif;
+	border-left: 50px;
+}

@@ -1,0 +1,209 @@
+h1 {
+	color: red;
+}
+
+p {
+	color: green;
+}
+
+h2 {
+	color: blue;
+	text-align: center;
+	font-size: 50px;
+}
+
+.p-texto {
+	color: lightblue;
+}
+
+#titulo-app{
+	color: purple;
+	font-size: 40px
+}
+
+/* Especificidade */
+
+div p {
+	color: red;
+}
+
+.p-dentro-da-div {
+	color: blue;
+}
+
+#p-super-especifico{
+	color: green;
+}
+
+/* colors */
+
+.nome{
+   color: orange;
+}
+
+.hexa {
+   color: #4287f5;
+}
+
+.rgba{
+   color: rgba(50, 168, 82, 1);
+   font-size: 40px
+}
+
+/* Backgrounds*/
+
+.div-background {
+    background-image: url("../HTML/por-do-sol.jpg"); 
+    background-position: center;
+    height: 500px;
+}
+
+.titulo-background {
+	text-align: center;
+	background-color: #000;
+	color: #FFF;
+}
+
+/* Fontes */
+
+.family {
+	color: #000;
+	font-size: 20px;
+}
+
+.family.serif {
+	color: green;
+}
+
+.serif {
+	font-family: "times new roman";
+}
+
+.sans-serif {
+	font-family: arial;
+}
+
+.monospace {
+	font-family: "Courier new";
+}
+
+.italic {
+	font-style: italic;
+}
+
+.oblique {
+	font-style: oblique;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+/* box model */
+
+body {
+	margin: 0px;
+}
+
+
+.boxmodel {
+	height: 200px;
+	width: 200px;
+	background-color: red;
+	/*padding: 20px;*/
+	/*padding-top: 30px;
+	padding-bottom: 5px;
+	padding-right: 20px;
+	padding-left: 10px;*/
+	padding: 30px 20px;
+	border: 3px solid purple;
+	border-width: 5px 10px 2px 10px;
+	border-left: 5px dotted purple;
+	border-right-style: dashed;
+	margin: 50px;
+}
+
+.paragrafo-box {
+	color: #000;
+	margin: 0px;
+}
+
+/* Positions */
+/* Static */
+/* Relative */
+/* Fixed */
+/* Absolute */
+/* Sticky */
+
+.div-positions {
+	width: 500px;
+	height: 500px;
+	background-color: red;
+}
+
+.static {
+	position: static;
+}
+
+.relative {
+	position: relative;
+	background-color: blue;
+	top: 100px;
+	left: 50px;
+}
+
+.absolute {
+	position: absolute;
+	background-color: purple;
+	right: 0;
+	top: 0;
+}
+
+.mini-div {
+	height: 50px;
+	width: 50px;
+	top: 50px;
+	left: 100px;
+}
+
+.fixed {
+	position: fixed;
+	height: 200px;
+	background-color: yellow;
+	bottom: 0;
+	right: 0;
+}
+
+.sticky {
+	position: sticky;
+	background-color: gray;
+	top: 0px;
+}
+
+/* Float */
+
+.container {
+	padding: 50px;
+}
+
+.div-float {
+	overflow: auto;	
+}
+
+.img-float {
+	width: 200px;
+	height: 200px;
+	float: left;
+}
+
+.float-right {
+	float: right;
+}
+
+.p-float {
+	color: #000;
+}
+
+.clear {
+	clear: both;
+}
